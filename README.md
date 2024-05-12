@@ -1,4 +1,4 @@
-If you reuse this project, could you please let me know via my messages.
+<p align = "center">If you reuse this project, could you please let me know via my messages.</p>
 
 <div align="center"> 
   <a href="mailto:contact.dualexandre@gmail.com">
