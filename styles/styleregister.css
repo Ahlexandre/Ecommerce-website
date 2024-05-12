@@ -1,0 +1,164 @@
+/* Projet réalisé par DU Alexandre */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#007bc4;
+   --red:#e74c3c;
+   --orange:#f39c12;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+   --border:2px solid var(--black);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+body{
+   background-color: var(--light-bg);
+}
+
+.message{
+   position: sticky;
+   top:0; left:0; right: 0;
+   padding: 15px 10px;
+   background-color: var(--white);
+   text-align: center;
+   z-index: 1000;
+   box-shadow: var(--box-shadow);
+   color: var(--black);
+}
+
+.logo{
+   margin-top: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.logo a{
+   text-align: center;
+}
+
+.logo img{
+   width: 25%;
+}
+
+
+.form-container{
+   min-height: 50vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+}
+
+.form-container form{
+   width: 500px;
+   border-radius: 5px;
+   border: var(--border);
+   padding: 20px;
+   text-align: center;
+   background-color: var(--white);
+}
+
+.form-container form h3{
+   font-size: 30px;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   color: var(--black);
+}
+
+.form-container form .box{
+   width: 100%;
+   border-radius: 5px;
+   border: var(--border);
+   padding: 12px 14px;
+   margin: 10px 0;
+}
+
+.form-container form p{
+   margin-top: 20px;
+   font-size: 20px;
+   color : var(--black)
+}
+
+.form-container form p a{
+   color: var(--red)
+}
+
+.form-container form p a:hover{
+   text-decoration: underline;
+}
+
+.btn,
+.delete-btn, 
+.option-btn{
+   display: inline-block;
+   border-radius: 5rem;
+   background-color: var(--blue);
+   padding: 10px 30px;
+   color: var(--white);
+   font-weight: 600;
+   cursor: pointer;
+   font-size: 18px;
+}
+
+.btn:hover,
+.delete-btn:hover, 
+.option-btn:hover{
+   scale: 1.1;
+    transition: 1s;
+}
+
+.btn{
+   background-color: var(--blue);
+   margin-top: 10px;
+}
+
+.delete-btn{
+   background-color: var(--red);
+}
+
+.option-btn{
+   background-color: var(--orange);
+}
+
+footer{
+   background-color: white;
+   color: var(--blue);
+   width: 100%;
+   height: 30%;
+   left: 0%;
+   display: flex;
+   margin: 50px 0px;
+   position: absolute;
+}
+
+.footer{
+   margin: 3% 15%;
+}
+
+.footer-links{
+   display: flex;
+   align-items: center;
+}
+
+.footer-links a{
+   display: inline-block;
+   margin-right: 200px;
+}
+
+.icons{
+   width: 24px;
+   height: 24px;
+}
+
